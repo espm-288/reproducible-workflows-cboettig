@@ -1,0 +1,18 @@
+---
+output: html
+title: quarto demo
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+mtcars |> ggplot(aes(mpg, cyl)) + geom_point()
+```
+
+```{r}
+1 + 1
+```
+
+Hello there.
