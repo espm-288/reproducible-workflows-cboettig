@@ -1,0 +1,7 @@
+project:
+  type: "website"
+
+website:
+  page-navigation: true
+  repo-url: https://github.com/cboettig/neon-aquatics-forecast
+  repo-actions: [edit, issue]
