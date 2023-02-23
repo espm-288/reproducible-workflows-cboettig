@@ -1,12 +1,12 @@
 ---
 output: html
 title: my quarto demo
+author: Carl Boettiger
 ---
-
-
 
 ```{r}
 library(tidyverse)
+library(ggplot2)
 ```
 
 ```{r}
@@ -18,4 +18,3 @@ mtcars |> ggplot(aes(mpg, cyl)) + geom_point()
 ```
 
 Hello there.
-
