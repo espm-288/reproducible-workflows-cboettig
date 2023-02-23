@@ -1,6 +1,6 @@
 ---
 output: html
-title: quarto demo
+title: my quarto demo
 ---
 
 ```{r}
